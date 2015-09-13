@@ -1,0 +1,21 @@
+== [2013-11-09] 1.0.4
+
+* Fix issues with wrapping define_attribute_methods in jruby on Rails 4 (Thanks, tank157)
+
+== [2013-11-09] 1.0.3
+
+* Add rbx and JRuby compatibility (Thanks, petergoldstein)
+
+== [2013-08-25] 1.0.2
+
+* Hook on AR::Base.define_attribute_methods in order to prevent eager load of models [byroot]
+
+== [2010-10-15] 1.0.0 Major Updates
+
+* Finally updated to be a Gem
+* Internal refactoring
+* Converted tests to RSpec
+* Added support for Rails 3.0
+
+== 0.1.2 Fixed issue with table not existing.
+== 0.1.0 Initial Version
