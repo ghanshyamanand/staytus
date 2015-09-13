@@ -1,4 +1,6 @@
 source 'https://rubygems.org'
+
+
 gem 'rails', '4.2.0'
 gem 'mysql2'
 gem 'sass-rails', '~> 5.0'
@@ -27,12 +29,12 @@ gem 'redcarpet', '~> 3.2.2'
 gem 'premailer', '~> 1.8.3'
 
 group :development, :test do
-  gem 'annotate', '~> 2.6.5'
   gem 'capistrano', '~> 3.4.0'
   gem 'capistrano-rails', '~> 1.1.3'
   gem 'capistrano-rvm', github: "capistrano/rvm"
   gem 'byebug'
   gem 'web-console', '~> 2.0'
   gem 'spring'
+  gem 'annotate', '~> 2.6.5'
 end
 
