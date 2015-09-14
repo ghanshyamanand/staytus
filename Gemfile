@@ -29,6 +29,7 @@ gem 'redcarpet', '~> 3.2.2'
 gem 'premailer', '~> 1.8.3'
 gem 'capistrano3-delayed-job', '~> 1.0'
 
+
 group :development, :test do
   gem 'capistrano', '~> 3.4.0'
   gem 'capistrano-rails', '~> 1.1.3'

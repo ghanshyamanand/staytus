@@ -30,6 +30,7 @@ require 'capistrano/setup'
 
 # Include default deployment tasks
 require 'capistrano/deploy'
+require 'capistrano/delayed-job'
 
 # Include tasks from other gems included in your Gemfile
 #
@@ -49,7 +50,6 @@ set :rvm_ruby_version, ' 2.2.0'
 
 require 'capistrano/bundler'
 require 'capistrano/rails'
-require 'capistrano/delayed-job'
 
 # require 'capistrano/rvm'
 # require 'capistrano/rbenv'

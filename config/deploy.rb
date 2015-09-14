@@ -31,16 +31,6 @@ set :deploy_to, '/home/deploy/staytus'
 set :linked_files, %w{config/database.yml}
 set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system}
 
-set :delayed_job_workers, 2
-set :delayed_job_prefix, :reports
-set :delayed_job_queues, ['mailer','tracking']
-set :delayed_job_pools, {
-    :mailer => 2,
-    :tracking => 1,
-    :* => 2
-}
-set :delayed_job_roles, [:app, :background]
-
 # Default value for default_env is {}
 # set :default_env, { path: "/opt/ruby/bin:$PATH" }
 
