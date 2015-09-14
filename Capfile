@@ -49,6 +49,7 @@ set :rvm_ruby_version, ' 2.2.0'
 
 require 'capistrano/bundler'
 require 'capistrano/rails'
+require 'capistrano/delayed-job'
 
 # require 'capistrano/rvm'
 # require 'capistrano/rbenv'
